@@ -22,6 +22,8 @@
 		97CB9E03194A50E300A86161 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97CB9DE7194A50E200A86161 /* CoreData.framework */; };
 		97CB9E0B194A50E300A86161 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97CB9E09194A50E300A86161 /* InfoPlist.strings */; };
 		97CB9E0D194A50E300A86161 /* DKTunerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CB9E0C194A50E300A86161 /* DKTunerTests.m */; };
+		97CB9E18194A513800A86161 /* DKTuner.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CB9E17194A513800A86161 /* DKTuner.m */; };
+		97CB9E1C194A52EA00A86161 /* DKSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CB9E1B194A52EA00A86161 /* DKSampleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		97CB9E08194A50E300A86161 /* DKTunerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DKTunerTests-Info.plist"; sourceTree = "<group>"; };
 		97CB9E0A194A50E300A86161 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97CB9E0C194A50E300A86161 /* DKTunerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKTunerTests.m; sourceTree = "<group>"; };
+		97CB9E16194A513800A86161 /* DKTuner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKTuner.h; sourceTree = "<group>"; };
+		97CB9E17194A513800A86161 /* DKTuner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTuner.m; sourceTree = "<group>"; };
+		97CB9E1A194A52EA00A86161 /* DKSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSampleViewController.h; sourceTree = "<group>"; };
+		97CB9E1B194A52EA00A86161 /* DKSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,11 @@
 		97CB9DE9194A50E200A86161 /* DKTuner */ = {
 			isa = PBXGroup;
 			children = (
+				97CB9E19194A513D00A86161 /* DKTuner */,
 				97CB9DF2194A50E200A86161 /* DKAppDelegate.h */,
 				97CB9DF3194A50E200A86161 /* DKAppDelegate.m */,
+				97CB9E1A194A52EA00A86161 /* DKSampleViewController.h */,
+				97CB9E1B194A52EA00A86161 /* DKSampleViewController.m */,
 				97CB9DF8194A50E300A86161 /* Images.xcassets */,
 				97CB9DF5194A50E300A86161 /* DKTuner.xcdatamodeld */,
 				97CB9DEA194A50E200A86161 /* Supporting Files */,
@@ -151,6 +160,15 @@
 				97CB9E09194A50E300A86161 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97CB9E19194A513D00A86161 /* DKTuner */ = {
+			isa = PBXGroup;
+			children = (
+				97CB9E16194A513800A86161 /* DKTuner.h */,
+				97CB9E17194A513800A86161 /* DKTuner.m */,
+			);
+			name = DKTuner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CB9E1C194A52EA00A86161 /* DKSampleViewController.m in Sources */,
 				97CB9DF0194A50E200A86161 /* main.m in Sources */,
+				97CB9E18194A513800A86161 /* DKTuner.m in Sources */,
 				97CB9DF4194A50E200A86161 /* DKAppDelegate.m in Sources */,
 				97CB9DF7194A50E300A86161 /* DKTuner.xcdatamodeld in Sources */,
 			);

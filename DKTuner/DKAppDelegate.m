@@ -7,6 +7,7 @@
 //
 
 #import "DKAppDelegate.h"
+#import "DKSampleViewController.h"
 
 @implementation DKAppDelegate
 
@@ -19,6 +20,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    DKSampleViewController *v = [[DKSampleViewController alloc] init];
+    [self.window addSubview:[v view]];
     [self.window makeKeyAndVisible];
     return YES;
 }
