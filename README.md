@@ -1,14 +1,21 @@
 DKTuner
 =======
-Usage:
+## Requirements
+* Xcode 5 or higher
+* Apple LLVM compiler
+* iOS 7.1 or higher
+* ARC
+
+##Usage:
 import following files
-  . DKTuner.h
-  . DKTuner.m
-  . tunerImage from (Images.xcassets) or any other image you want for tuner.
+  * DKTuner.h
+  * DKTuner.m
+  * tunerImage from (Images.xcassets) or any other image you want for tuner.
   
   and in your view controller
   
-    . if you want a scalar value tuner;
+    * if you want a scalar value tuner;
+```objective-c
       DKTuner* sensitivityTuner = [[DKTuner alloc] initWithFrame:CGRectMake(40, 80, 120, 120)
                                                   usingImage:[UIImage imageNamed:@"tunerImage"]
                                             usingDescription:@"percent"
@@ -19,9 +26,10 @@ import following files
                                                    foreColor:UIColor.whiteColor
                                                   objectFont:[UIFont fontWithName:@"Arial" size:30]];
       [self.view addSubview:sensitivityTuner];
+```
 
-
-    . if you want a time tuner;
+    * if you want a time tuner;
+```objective-c
         DKTuner* timeTuner = [[DKTuner alloc] initWithFrame:CGRectMake(160, 80, 120, 120)
                                              usingImage:[UIImage imageNamed:@"tunerImage"]
                                        usingDescription:@"mins:secs"
@@ -33,9 +41,11 @@ import following files
                                              objectFont:[UIFont fontWithName:@"Arial" size:30]
                                                    mode:DKTunerModeTime];
     [self.view addSubview:timeTuner];
+```
 
-    . if you want a catalog tuner;
-    
+
+    * if you want a catalog tuner;
+```objective-c
         DKTuner* daysTuner = [[DKTuner alloc] initWithFrame:CGRectMake(40, 200, 240, 240)
                                              usingImage:[UIImage imageNamed:@"tunerImage"]
                                        usingDescription:@"day"
@@ -45,3 +55,6 @@ import following files
                                               foreColor:UIColor.blackColor
                                              objectFont:[UIFont fontWithName:@"Arial" size:45]];
         [self.view addSubview:daysTuner];
+```
+
+<img src="https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/3976/iOS_Simulator_Screen_shot_Jun_13__2014__1.04.37_AM.png" alt="Screenshot" width="320" height="568" />
