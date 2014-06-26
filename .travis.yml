@@ -5,7 +5,7 @@ before_install:
   - brew install xctool
   - gem install cocoapods
 script:
-  - xctool -workspace DKTuner.xcworkspace -scheme DKTuner -sdk iphonesimulator test
+  - xctool -workspace DKTuner.xcodeproj -scheme DKTuner -sdk iphonesimulator test
 branches:
   only:
     - master
