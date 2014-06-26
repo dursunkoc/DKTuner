@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>84B7D720-2D49-4CC2-A600-2A1E7B71EBA8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DKTuner</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B084C6C9-C614-4836-A5D3-77C09F0AE31D</key>
+		<string>https://github.com/dursunkoc/DKTuner.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DKTuner.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B084C6C9-C614-4836-A5D3-77C09F0AE31D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dursunkoc/DKTuner.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B084C6C9-C614-4836-A5D3-77C09F0AE31D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B084C6C9-C614-4836-A5D3-77C09F0AE31D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DKTuner</string>
+		</dict>
+	</array>
+</dict>
+</plist>

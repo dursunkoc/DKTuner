@@ -3,12 +3,12 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "tuner.png"
+      "filename" : "tunerImage.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "tuner-1.png"
+      "filename" : "tunerImage-1.png"
     }
   ],
   "info" : {
