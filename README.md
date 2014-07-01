@@ -17,7 +17,7 @@ import following files
   
   and in your view controller
   
-    * if you want a scalar value tuner;
+  * if you want a scalar value tuner;
 ```objective-c
       DKTuner* sensitivityTuner = [[DKTuner alloc] initWithFrame:CGRectMake(40, 80, 120, 120)
                                                   usingImage:[UIImage imageNamed:@"tunerImage"]
@@ -31,7 +31,7 @@ import following files
       [self.view addSubview:sensitivityTuner];
 ```
 
-    * if you want a time tuner;
+  * if you want a time tuner;
 ```objective-c
         DKTuner* timeTuner = [[DKTuner alloc] initWithFrame:CGRectMake(160, 80, 120, 120)
                                              usingImage:[UIImage imageNamed:@"tunerImage"]
@@ -47,7 +47,7 @@ import following files
 ```
 
 
-    * if you want a catalog tuner;
+  * if you want a catalog tuner;
 ```objective-c
         DKTuner* daysTuner = [[DKTuner alloc] initWithFrame:CGRectMake(40, 200, 240, 240)
                                              usingImage:[UIImage imageNamed:@"tunerImage"]
