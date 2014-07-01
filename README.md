@@ -6,6 +6,9 @@ DKTuner
 * iOS 7.1 or higher
 * ARC
 
+##Builds
+[![Build Status](https://travis-ci.org/dursunkoc/DKTuner.svg?branch=master)](https://travis-ci.org/dursunkoc/DKTuner)
+
 ##Usage:
 import following files
   * DKTuner.h
