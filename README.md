@@ -60,4 +60,4 @@ import following files
         [self.view addSubview:daysTuner];
 ```
 
-<img src="https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/3976/iOS_Simulator_Screen_shot_Jun_13__2014__1.04.37_AM.png" alt="Screenshot" width="320" height="568" />
+<img src="https://cocoacontrols-production.s3.amazonaws.com/uploads/control_image/image/3976/iOS_Simulator_Screen_shot_Jun_13__2014__1.04.37_AM.png" alt="Screenshot" width="320" height="568" />
